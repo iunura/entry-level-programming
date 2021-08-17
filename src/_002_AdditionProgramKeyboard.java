@@ -1,4 +1,4 @@
-public class __002_AdditionProgramKeyboard {
+public class _002_AdditionProgramKeyboard {
     public static void main(String[] args) {
         java.util.Scanner kb = new java.util.Scanner(System.in);
         int a, b ,c;

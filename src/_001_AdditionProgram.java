@@ -1,4 +1,4 @@
-public class __001_AdditionProgram {
+public class _001_AdditionProgram {
 
     public static void main(String[] args) {
         int a, b,c;
