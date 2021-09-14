@@ -1,0 +1,25 @@
+/******************************************************************************
+ Dizinin son n adet elemanını sondan başa doğru yazıdan program
+ n=1 girildiğinde 17'yi basacak
+ n =2 girildiğinde 5, 17'yi basacak
+ n=4 girildiğinde 17,5,20,21
+
+             0 ,1, 2, 3, 4,  5, 6,  7,  8, 9
+ int a[] = { 4, 8, 3, 1, 18, 9, 21, 20, 5, 17 }
+
+ *******************************************************************************/
+public class _079_ArayExample25 {
+    public static void main(String[] args) {
+        java.util.Scanner kb = new java.util.Scanner(System.in);
+        int a[] = {4, 8, 3, 1, 18, 9, 21, 20, 5, 17};
+        int i, n, size;
+        size = 10;
+
+        System.out.print("n'yi giriniz : ");
+        n = kb.nextInt();
+
+        for (i = size - 1; i >= size - n; i = i - 1)
+            System.out.print(a[i] + " ");
+
+    }
+}
