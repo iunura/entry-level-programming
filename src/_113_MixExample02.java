@@ -1,0 +1,26 @@
+/****************************************************************************
+ ÖDEV: Klavyeden n'e göre belirtilen deseni ekrana yazdıran program.
+          *
+        * * *
+      * * * * *
+     * * * * * * *
+   * * * * * * * * *
+ *******************************************************************************/
+public class _113_MixExample02 {
+    public static void main(String[] args) {
+        java.util.Scanner kb = new java.util. Scanner(System.in);
+
+        int i, n, k;
+
+        System.out.print("n değeri giriniz : ");
+        n = kb.nextInt();
+
+        for (i = 1; i <= n; i = i + 2) {
+            for (k = 1; k <=(n-i)/2; k = k + 1)
+                System.out.print(" ");
+            for (k = 1; k <=i; k = k + 1)
+                System.out.print("*");
+            System.out.println();
+        }
+    }
+}
